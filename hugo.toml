@@ -2,3 +2,22 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'relearn'
+[params]
+  [[params.themeVariant]]
+    identifier = "relearn-auto"
+    name = "Relearn Light/Dark"
+    auto = []
+  [[params.themeVariant]]
+    identifier = "relearn-light"
+  [[params.themeVariant]]
+    identifier = "relearn-dark"
+  [[params.themeVariant]]
+    identifier = "zen-auto"
+    name = "Zen Light/Dark"
+    auto = [ "zen-light", "zen-dark" ]
+  [[params.themeVariant]]
+    identifier = "zen-light"
+  [[params.themeVariant]]
+    identifier = "zen-dark"
+  [[params.themeVariant]]
+    identifier = "neon"
