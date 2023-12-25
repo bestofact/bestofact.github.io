@@ -4,3 +4,6 @@
 [submodule "cantudevs/themes/relearn"]
 	path = cantudevs/themes/relearn
 	url = https://github.com/McShelby/hugo-theme-relearn.git
+[submodule "cantudevs_hugo/themes/relearn"]
+	path = cantudevs_hugo/themes/relearn
+	url = https://github.com/McShelby/hugo-theme-relearn.git
